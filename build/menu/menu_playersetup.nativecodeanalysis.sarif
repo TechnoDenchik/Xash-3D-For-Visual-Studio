@@ -1,0 +1,281 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/menu_playersetup.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 36,
+                  "endLine": 73,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_PlayerSetup_CalcFov",
+                  "decoratedName": "?UI_PlayerSetup_CalcFov@@YAXPAUref_viewpass_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/menu_playersetup.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 36,
+                  "endLine": 73,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_PlayerSetup_CalcFov",
+                  "decoratedName": "?UI_PlayerSetup_CalcFov@@YAXPAUref_viewpass_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/menu_playersetup.cpp"
+                },
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 86,
+                  "endLine": 497,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_PlayerSetup_Init",
+                  "decoratedName": "?UI_PlayerSetup_Init@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/menu_playersetup.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "18ba763cd1b205852dfb003b9e4e6bd7873a70c06b0f262ca0d5cd50b7b50f25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/mathlib.h"
+          },
+          "hashes": {
+            "sha-256": "d726487a851d244ade6b1944d1df60309c5c4043495aa9a3cc920565d670143e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/extdll.h"
+          },
+          "hashes": {
+            "sha-256": "91bfc3a1ca5917c4a1c8dff552b5d0661cf00e22699f62522fa9d110f023b350"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/menu_int.h"
+          },
+          "hashes": {
+            "sha-256": "dfafb5e54b04e44abac02a00748f382ef2905e2689cf3155fc5a5bf4ca6daf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/cvardef.h"
+          },
+          "hashes": {
+            "sha-256": "6506940aa61195e3d93720e839f9bec5ab0cecb90cc22f5e97ef40de80427007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/gameinfo.h"
+          },
+          "hashes": {
+            "sha-256": "bdf6b9c85bcd55126e0e576a2124a6f94808abf3d589b8387abe7847f247d1f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/wrect.h"
+          },
+          "hashes": {
+            "sha-256": "52e1d8f8d677a14bda41a42ed66d17fc128c1a2e54dcdffe33298eda678d5da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/const.h"
+          },
+          "hashes": {
+            "sha-256": "024b8698e0008ada6547152e5a41b0d6ff543c0a7f43796903a182ac4bc9beec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/basemenu.h"
+          },
+          "hashes": {
+            "sha-256": "9f7fa1e86af442c74f4a26a22368ff425444130d0ec10a3ff403b12da1856746"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/netadr.h"
+          },
+          "hashes": {
+            "sha-256": "5ded6bac60a5eb11aad422b71de9ae491b46b26d59b286b8a44208784a016692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/utils.h"
+          },
+          "hashes": {
+            "sha-256": "547863d55d1f5ff56807f26c3e526e3c58e39ac66ff01de619ec9376e261a241"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/enginecallback.h"
+          },
+          "hashes": {
+            "sha-256": "4fd4007a4e8627ea3141792fd7274ab816ed58efbf097b2945fe518c1806a146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/keydefs.h"
+          },
+          "hashes": {
+            "sha-256": "a01c3fd8d2a785e2ab72e99192f26e07d2d249703e312c25ae5dd7bca14b1455"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/ref_params.h"
+          },
+          "hashes": {
+            "sha-256": "56746716d4f6c2dcde1457e295f9b7321e02a4849942b849a0a0089d7237c035"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/cl_entity.h"
+          },
+          "hashes": {
+            "sha-256": "f284ab2b12f1ae0265cf90170dd778d4577765f0907b53f6b2633c12887425b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/entity_state.h"
+          },
+          "hashes": {
+            "sha-256": "386fc2a4c44e794f1526c65b39edfa46a2f079c6935ec7e1d839326915e90579"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/pm_shared/pm_info.h"
+          },
+          "hashes": {
+            "sha-256": "4e13a6b7dda8270725a2ecd6adb89fec16c179ce6f51f80043861bce3856b84b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/weaponinfo.h"
+          },
+          "hashes": {
+            "sha-256": "15a755c8dfd5bb1d4515cb47536618307adfc026866c7c570ff4f424c7ed92d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/event_args.h"
+          },
+          "hashes": {
+            "sha-256": "f5ba49fa503ea95b0200d3bf91549e3e7286db28215986da499865f4080d2c5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/entity_types.h"
+          },
+          "hashes": {
+            "sha-256": "3e828ad3dd33804328b3e6e83fb9174b1241fce8616956708a0bf702258995fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_btnsbmp_table.h"
+          },
+          "hashes": {
+            "sha-256": "7c5aa6d586de449d40b74c885e8d9dfa9e2542dc16a2cd0a5da31605b4cdf623"
+          }
+        }
+      ]
+    }
+  ]
+}

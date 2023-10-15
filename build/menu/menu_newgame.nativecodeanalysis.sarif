@@ -1,0 +1,131 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_newgame.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "4572cbff7a2bfbfd1e0f452ccce326fdd23cdd7d1dd23bc9226bd43e4bdce6e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/extdll.h"
+          },
+          "hashes": {
+            "sha-256": "91bfc3a1ca5917c4a1c8dff552b5d0661cf00e22699f62522fa9d110f023b350"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/menu_int.h"
+          },
+          "hashes": {
+            "sha-256": "dfafb5e54b04e44abac02a00748f382ef2905e2689cf3155fc5a5bf4ca6daf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/cvardef.h"
+          },
+          "hashes": {
+            "sha-256": "6506940aa61195e3d93720e839f9bec5ab0cecb90cc22f5e97ef40de80427007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/gameinfo.h"
+          },
+          "hashes": {
+            "sha-256": "bdf6b9c85bcd55126e0e576a2124a6f94808abf3d589b8387abe7847f247d1f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/wrect.h"
+          },
+          "hashes": {
+            "sha-256": "52e1d8f8d677a14bda41a42ed66d17fc128c1a2e54dcdffe33298eda678d5da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/basemenu.h"
+          },
+          "hashes": {
+            "sha-256": "9f7fa1e86af442c74f4a26a22368ff425444130d0ec10a3ff403b12da1856746"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/netadr.h"
+          },
+          "hashes": {
+            "sha-256": "5ded6bac60a5eb11aad422b71de9ae491b46b26d59b286b8a44208784a016692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/utils.h"
+          },
+          "hashes": {
+            "sha-256": "547863d55d1f5ff56807f26c3e526e3c58e39ac66ff01de619ec9376e261a241"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/enginecallback.h"
+          },
+          "hashes": {
+            "sha-256": "4fd4007a4e8627ea3141792fd7274ab816ed58efbf097b2945fe518c1806a146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/keydefs.h"
+          },
+          "hashes": {
+            "sha-256": "a01c3fd8d2a785e2ab72e99192f26e07d2d249703e312c25ae5dd7bca14b1455"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_btnsbmp_table.h"
+          },
+          "hashes": {
+            "sha-256": "7c5aa6d586de449d40b74c885e8d9dfa9e2542dc16a2cd0a5da31605b4cdf623"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_strings.h"
+          },
+          "hashes": {
+            "sha-256": "f77fd67d6173d6d8810dbcba3fac7047fa7b8ff390a916ae3d9e448e9dd91871"
+          }
+        }
+      ]
+    }
+  ]
+}

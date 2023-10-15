@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Denchik-PC\Desktop\Xash3D\src\mainui\</FILEPATH>
+      <FILENAME>menu_playersetup.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>UI_PlayerSetup_CalcFov</FUNCTION>
+    <DECORATED>?UI_PlayerSetup_CalcFov@@YAXPAUref_viewpass_s@@@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Denchik-PC\Desktop\Xash3D\src\mainui\</FILEPATH>
+      <FILENAME>menu_playersetup.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>UI_PlayerSetup_CalcFov</FUNCTION>
+    <DECORATED>?UI_PlayerSetup_CalcFov@@YAXPAUref_viewpass_s@@@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Denchik-PC\Desktop\Xash3D\src\mainui\</FILEPATH>
+      <FILENAME>menu_playersetup.cpp</FILENAME>
+      <LINE>497</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>UI_PlayerSetup_Init</FUNCTION>
+    <DECORATED>?UI_PlayerSetup_Init@@YAXXZ</DECORATED>
+    <FUNCLINE>321</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

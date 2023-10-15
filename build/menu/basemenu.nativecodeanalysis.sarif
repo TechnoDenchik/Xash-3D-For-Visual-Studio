@@ -1,0 +1,479 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 23,
+                  "endLine": 346,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_DrawBackground_Callback",
+                  "decoratedName": "?UI_DrawBackground_Callback@@YAXPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 347,
+                  "startColumn": 23,
+                  "endLine": 347,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_DrawBackground_Callback",
+                  "decoratedName": "?UI_DrawBackground_Callback@@YAXPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 23,
+                  "endLine": 348,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_DrawBackground_Callback",
+                  "decoratedName": "?UI_DrawBackground_Callback@@YAXPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 23,
+                  "endLine": 349,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_DrawBackground_Callback",
+                  "decoratedName": "?UI_DrawBackground_Callback@@YAXPAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Переполнение буфера при записи в \"menu->items\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 477,
+                  "startColumn": 2,
+                  "endLine": 477,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_AddItem",
+                  "decoratedName": "?UI_AddItem@@YAXPAUmenuFramework_s@@PAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"menu->numItems>=64\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 477,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция записи в \"menu->items[64]\" (доступный для записи диапазон: от 0 до 63)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"menu->items\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                },
+                "region": {
+                  "startLine": 478,
+                  "startColumn": 3,
+                  "endLine": 478,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_AddItem",
+                  "decoratedName": "?UI_AddItem@@YAXPAUmenuFramework_s@@PAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"menu->numItems>=64\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 477,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 56
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"menu->items[64]\" (доступный для чтения диапазон: от 0 до 63)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/basemenu.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "726cf10472d6354672833746ad073e3e73716c19b094465bfca0188011652a44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/extdll.h"
+          },
+          "hashes": {
+            "sha-256": "91bfc3a1ca5917c4a1c8dff552b5d0661cf00e22699f62522fa9d110f023b350"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/menu_int.h"
+          },
+          "hashes": {
+            "sha-256": "dfafb5e54b04e44abac02a00748f382ef2905e2689cf3155fc5a5bf4ca6daf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/cvardef.h"
+          },
+          "hashes": {
+            "sha-256": "6506940aa61195e3d93720e839f9bec5ab0cecb90cc22f5e97ef40de80427007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/gameinfo.h"
+          },
+          "hashes": {
+            "sha-256": "bdf6b9c85bcd55126e0e576a2124a6f94808abf3d589b8387abe7847f247d1f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/wrect.h"
+          },
+          "hashes": {
+            "sha-256": "52e1d8f8d677a14bda41a42ed66d17fc128c1a2e54dcdffe33298eda678d5da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/basemenu.h"
+          },
+          "hashes": {
+            "sha-256": "9f7fa1e86af442c74f4a26a22368ff425444130d0ec10a3ff403b12da1856746"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/netadr.h"
+          },
+          "hashes": {
+            "sha-256": "5ded6bac60a5eb11aad422b71de9ae491b46b26d59b286b8a44208784a016692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/keydefs.h"
+          },
+          "hashes": {
+            "sha-256": "a01c3fd8d2a785e2ab72e99192f26e07d2d249703e312c25ae5dd7bca14b1455"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menufont.h"
+          },
+          "hashes": {
+            "sha-256": "b499e20bc4bc55d09101912e80039ac983d16d218966aa729ea060554aa269a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/utils.h"
+          },
+          "hashes": {
+            "sha-256": "547863d55d1f5ff56807f26c3e526e3c58e39ac66ff01de619ec9376e261a241"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/enginecallback.h"
+          },
+          "hashes": {
+            "sha-256": "4fd4007a4e8627ea3141792fd7274ab816ed58efbf097b2945fe518c1806a146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_btnsbmp_table.h"
+          },
+          "hashes": {
+            "sha-256": "7c5aa6d586de449d40b74c885e8d9dfa9e2542dc16a2cd0a5da31605b4cdf623"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/ui_title_anim.h"
+          },
+          "hashes": {
+            "sha-256": "71c5f98b93382eba8222e519cb487a503c1ba507c4064b6aa8ec0667ac8d3f40"
+          }
+        }
+      ]
+    }
+  ]
+}

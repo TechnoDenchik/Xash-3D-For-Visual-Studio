@@ -1,0 +1,3079 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 754,
+                  "startColumn": 117,
+                  "endLine": 754,
+                  "endColumn": 117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_ScrollList_Draw",
+                  "decoratedName": "?UI_ScrollList_Draw@@YAXPAUmenuScrollList_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 535,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 538,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 538,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 538,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 540,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 547,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 551,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 553,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 555,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 556,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 557,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 558,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 560,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"!sl->background\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 567,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 583,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"sl->background\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 586,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 624,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 625,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 626,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 627,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 630,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 633,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 634,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 636,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 638,
+                            "startColumn": 83
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 645,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 646,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 649,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->scrollBarSliding\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 675,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->scrollBarSliding\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 683,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"sl->generic.flags\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 685,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 686,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 739,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 740,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 741,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 742,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 745,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 747,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 747,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<sl->topItem+sl->numRows\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 749,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"!sl->itemNames[i]\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 752,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"sl->generic.flags\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 754,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 754,
+                            "startColumn": 117
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 1026,
+                  "startColumn": 121,
+                  "endLine": 1026,
+                  "endColumn": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_SpinControl_Draw",
+                  "decoratedName": "?UI_SpinControl_Draw@@YAXPAUmenuSpinControl_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 937,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 938,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 939,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 939,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 939,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 939,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 941,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 941,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 943,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 945,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 947,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 950,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 953,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 954,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 956,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 957,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 958,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 959,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 962,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 963,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 964,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 965,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 967,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->background\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 974,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 977,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 980,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 988,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 997,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 998,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1000,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1007,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1013,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sc->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1024,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"sc->generic.flags\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1026,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1027,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1028,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1026,
+                            "startColumn": 121
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 1180,
+                  "startColumn": 171,
+                  "endLine": 1180,
+                  "endColumn": 171
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_Slider_Draw",
+                  "decoratedName": "?UI_Slider_Draw@@YAXPAUmenuSlider_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1144,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1145,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1148,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1150,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1152,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1155,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1157,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sl->keepSlider\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1171,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1174,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1176,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1177,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1179,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1180,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1181,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1180,
+                            "startColumn": 171
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 1302,
+                  "startColumn": 192,
+                  "endLine": 1302,
+                  "endColumn": 192
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_CheckBox_Draw",
+                  "decoratedName": "?UI_CheckBox_Draw@@YAXPAUmenuCheckBox_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1287,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1288,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1289,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1289,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1291,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"cb->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1293,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"cb->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1295,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"cb->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1298,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1300,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1301,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1302,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1302,
+                            "startColumn": 192
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 1912,
+                  "startColumn": 170,
+                  "endLine": 1912,
+                  "endColumn": 170
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_Action_Draw",
+                  "decoratedName": "?UI_Action_Draw@@YAXPAUmenuAction_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1848,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1849,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1851,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1853,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1855,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1858,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1860,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->background\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1863,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1885,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1891,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1897,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1900,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1902,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"a->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1911,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"a->generic.flags\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1912,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 1912,
+                            "startColumn": 170
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Использование неинициализированной памяти \"justify\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                },
+                "region": {
+                  "startLine": 2247,
+                  "startColumn": 195,
+                  "endLine": 2247,
+                  "endColumn": 195
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI_PicButton_Draw",
+                  "decoratedName": "?UI_PicButton_Draw@@YAXPAUmenuPicButton_s@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2149,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2151,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2155,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2158,
+                            "startColumn": 67
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2180,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2208,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Инициализация \"justify\" не выполнена"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2209,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2211,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2213,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2215,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2218,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2220,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2226,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2232,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"<условие ветви>\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2235,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2237,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"item->generic.flags\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2246,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"item->generic.flags\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2247,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" является аргументом ввода-вывода для \"UI_DrawString\" (объявлено в c:\\users\\denchik-pc\\desktop\\xash3d\\src\\mainui\\basemenu.h: 410)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+                          },
+                          "region": {
+                            "startLine": 2247,
+                            "startColumn": 195
+                          }
+                        },
+                        "message": {
+                          "text": "\"justify\" используется, но, возможно, не инициализировано"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Denchik-PC/Desktop/Xash3D/src/mainui/utils.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f68ee9f1f8da5a050dc8aa8f5778659852040ed9d7386436bcf8de3f4a2418d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/extdll.h"
+          },
+          "hashes": {
+            "sha-256": "91bfc3a1ca5917c4a1c8dff552b5d0661cf00e22699f62522fa9d110f023b350"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/menu_int.h"
+          },
+          "hashes": {
+            "sha-256": "dfafb5e54b04e44abac02a00748f382ef2905e2689cf3155fc5a5bf4ca6daf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/cvardef.h"
+          },
+          "hashes": {
+            "sha-256": "6506940aa61195e3d93720e839f9bec5ab0cecb90cc22f5e97ef40de80427007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/gameinfo.h"
+          },
+          "hashes": {
+            "sha-256": "bdf6b9c85bcd55126e0e576a2124a6f94808abf3d589b8387abe7847f247d1f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/wrect.h"
+          },
+          "hashes": {
+            "sha-256": "52e1d8f8d677a14bda41a42ed66d17fc128c1a2e54dcdffe33298eda678d5da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/basemenu.h"
+          },
+          "hashes": {
+            "sha-256": "9f7fa1e86af442c74f4a26a22368ff425444130d0ec10a3ff403b12da1856746"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/common/netadr.h"
+          },
+          "hashes": {
+            "sha-256": "5ded6bac60a5eb11aad422b71de9ae491b46b26d59b286b8a44208784a016692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/utils.h"
+          },
+          "hashes": {
+            "sha-256": "547863d55d1f5ff56807f26c3e526e3c58e39ac66ff01de619ec9376e261a241"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/enginecallback.h"
+          },
+          "hashes": {
+            "sha-256": "4fd4007a4e8627ea3141792fd7274ab816ed58efbf097b2945fe518c1806a146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/engine/keydefs.h"
+          },
+          "hashes": {
+            "sha-256": "a01c3fd8d2a785e2ab72e99192f26e07d2d249703e312c25ae5dd7bca14b1455"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/menu_btnsbmp_table.h"
+          },
+          "hashes": {
+            "sha-256": "7c5aa6d586de449d40b74c885e8d9dfa9e2542dc16a2cd0a5da31605b4cdf623"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/denchik-pc/desktop/xash3d/src/mainui/ui_title_anim.h"
+          },
+          "hashes": {
+            "sha-256": "71c5f98b93382eba8222e519cb487a503c1ba507c4064b6aa8ec0667ac8d3f40"
+          }
+        }
+      ]
+    }
+  ]
+}
