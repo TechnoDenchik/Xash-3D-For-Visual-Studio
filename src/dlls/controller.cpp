@@ -873,7 +873,7 @@ void CController :: RunAI( void )
 			WRITE_COORD( vecStart.x );		// origin
 			WRITE_COORD( vecStart.y );
 			WRITE_COORD( vecStart.z );
-			WRITE_COORD( m_iBallCurrent[i] / 8 );	// radius
+			WRITE_COORD(m_iBallCurrent[i] / static_cast<float>(8));	// radius
 			WRITE_BYTE( 255 );	// R
 			WRITE_BYTE( 192 );	// G
 			WRITE_BYTE( 64 );	// B

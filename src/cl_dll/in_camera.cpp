@@ -207,7 +207,7 @@ void DLLEXPORT CAM_Think( void )
 			//if ((camAngles[YAW]>=225.0)||(camAngles[YAW]<135.0))
 			if (camAngles[YAW]<c_maxyaw->value)
 			{
-				camAngles[ YAW ] += (CAM_ANGLE_MOVE)*((cam_mouse.x-gEngfuncs.GetWindowCenterX())/2);
+				camAngles[YAW] += (CAM_ANGLE_MOVE) * ((static_cast<double>(cam_mouse.x) - gEngfuncs.GetWindowCenterX()) / 2);
 			}
 			if (camAngles[YAW]>c_maxyaw->value)
 			{
@@ -237,7 +237,7 @@ void DLLEXPORT CAM_Think( void )
 		{
 			if(camAngles[PITCH]<c_maxpitch->value)
 			{
-			    camAngles[PITCH] +=(CAM_ANGLE_MOVE)* ((cam_mouse.y-gEngfuncs.GetWindowCenterY())/2);
+				camAngles[PITCH] += (CAM_ANGLE_MOVE) * ((static_cast<double>(cam_mouse.y) - gEngfuncs.GetWindowCenterY()) / 2);
 			}
 			if (camAngles[PITCH]>c_maxpitch->value)
 			{
@@ -305,7 +305,7 @@ void DLLEXPORT CAM_Think( void )
 		{
 			if(dist<c_maxdistance->value)
 			{
-			    dist +=CAM_DIST_DELTA * ((cam_mouse.y-gEngfuncs.GetWindowCenterY())/2);
+				dist += CAM_DIST_DELTA * ((static_cast<double>(cam_mouse.y) - gEngfuncs.GetWindowCenterY()) / 2);
 			}
 			if (dist>c_maxdistance->value)
 			{

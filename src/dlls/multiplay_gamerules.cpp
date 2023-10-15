@@ -1470,8 +1470,8 @@ Parse commands/key value pairs to issue right after map xxx command is issued on
 void ExtractCommandString( char *s, char *szCommand )
 {
 	// Now make rules happen
-	char	pkey[512];
-	char	value[512];	// use two buffers so compares
+	char	pkey[512]{};
+	char	value[512]{};	// use two buffers so compares
 								// work without stomping on each other
 	char	*o;
 	
@@ -1528,8 +1528,8 @@ void CHalfLifeMultiplay :: ChangeLevel( void )
 
 	char szNextMap[32];
 	char szFirstMapInList[32];
-	char szCommands[ 1500 ];
-	char szRules[ 1500 ];
+	char szCommands[1500]{};
+	char szRules[1500]{};
 	int minplayers = 0, maxplayers = 0;
 	strcpy( szFirstMapInList, "hldm1" );  // the absolute default level is hldm1
 

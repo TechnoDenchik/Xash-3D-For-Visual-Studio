@@ -258,7 +258,7 @@ void CHudSayText :: EnsureTextFitsInOneLineAndWrapIfHaveTo( int line )
 					break;
 			}
 
-			char buf[2];
+			char buf[2]{};
 			buf[1] = 0;
 
 			if ( *x == ' ' && x != g_szLineBuffer[line] )  // store each line break,  except for the very first character

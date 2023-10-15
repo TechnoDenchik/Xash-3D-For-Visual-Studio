@@ -46,7 +46,7 @@ void CListBox::Term()
 	m_ItemOffset = 0;
 
 	// Free the LBItems.
-	LBItem *pNext;
+	LBItem* pNext = nullptr;
 	for(LBItem *pItem=m_Items.m_pNext; pItem != &m_Items; pItem=pNext)
 	{
 		pItem->m_pPanel->setParent(NULL);	// detach the panel from us

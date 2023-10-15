@@ -1093,7 +1093,7 @@ void V_GetChaseOrigin( float * angles, float * origin, float distance, float * r
 
 void V_GetSingleTargetCam(cl_entity_t * ent1, float * angle, float * origin)
 {
-	float newAngle[3]; float newOrigin[3]; 
+	float newAngle[3]{}; float newOrigin[3]{};
 	
 	int flags 	   = gHUD.m_Spectator.m_iObserverFlags;
 
@@ -1186,7 +1186,7 @@ float MaxAngleBetweenAngles(  float * a1, float * a2 )
 
 void V_GetDoubleTargetsCam(cl_entity_t	 * ent1, cl_entity_t * ent2,float * angle, float * origin)
 {
-	float newAngle[3]; float newOrigin[3]; float tempVec[3];
+	float newAngle[3]{}; float newOrigin[3]{}; float tempVec[3]{};
 
 	int flags 	   = gHUD.m_Spectator.m_iObserverFlags;
 
@@ -1295,7 +1295,7 @@ void V_GetDirectedChasePosition(cl_entity_t	 * ent1, cl_entity_t * ent2,float * 
 		// second target disappeard somehow (dead)
 
 		// keep last good viewangle
-		float newOrigin[3];
+		float newOrigin[3]{};
 
 		int flags 	   = gHUD.m_Spectator.m_iObserverFlags;
 

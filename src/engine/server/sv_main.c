@@ -252,7 +252,7 @@ void SV_ProcessFile( sv_client_t *cl, const char *filename )
 {
 	customization_t	*pList;
 	resource_t	*resource;
-	resource_t	*next;
+	resource_t* next = 0;
 	byte		md5[16];
 	qboolean		bFound;
 	qboolean		bError;

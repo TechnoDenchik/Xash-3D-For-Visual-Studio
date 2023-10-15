@@ -1973,7 +1973,7 @@ void TeamFortressViewport::paintBackground()
 		m_flScoreBoardLastUpdated = gHUD.m_flTime + 0.5;
 	}
 
-	int extents[4];
+	int extents[4]{};
 	getAbsExtents(extents[0],extents[1],extents[2],extents[3]);
 	VGui_ViewportPaintBackground(extents);
 }

@@ -76,7 +76,7 @@ void CVoiceBanMgr::Term()
 	for(int i=0; i < 256; i++)
 	{
 		BannedPlayer *pListHead = &m_PlayerHash[i];
-		BannedPlayer *pNext;
+		BannedPlayer* pNext = nullptr;
 		for(BannedPlayer *pCur=pListHead->m_pNext; pCur != pListHead; pCur=pNext)
 		{
 			pNext = pCur->m_pNext;

@@ -1345,7 +1345,7 @@ void CSpiral::Think( void )
 // HACKHACK Cut and pasted from explode.cpp
 void SpawnExplosion( Vector center, float randomRange, float time, int magnitude )
 {
-	KeyValueData	kvd;
+	KeyValueData	kvd{};
 	char			buf[128];
 
 	center.x += RANDOM_FLOAT( -randomRange, randomRange );

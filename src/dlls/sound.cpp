@@ -1167,7 +1167,7 @@ int SENTENCEG_GetIndex(const char *szgroupname)
 int SENTENCEG_PlayRndI(edict_t *entity, int isentenceg, 
 					  float volume, float attenuation, int flags, int pitch)
 {
-	char name[64];
+	char name[64]{};
 	int ipick;
 
 	if (!fSentencesInit)
@@ -1186,7 +1186,7 @@ int SENTENCEG_PlayRndI(edict_t *entity, int isentenceg,
 int SENTENCEG_PlayRndSz(edict_t *entity, const char *szgroupname, 
 					  float volume, float attenuation, int flags, int pitch)
 {
-	char name[64];
+	char name[64]{};
 	int ipick;
 	int isentenceg;
 
@@ -1214,7 +1214,7 @@ int SENTENCEG_PlayRndSz(edict_t *entity, const char *szgroupname,
 int SENTENCEG_PlaySequentialSz(edict_t *entity, const char *szgroupname, 
 					  float volume, float attenuation, int flags, int pitch, int ipick, int freset)
 {
-	char name[64];
+	char name[64]{};
 	int ipicknext;
 	int isentenceg;
 
@@ -1630,7 +1630,7 @@ float TEXTURETYPE_PlaySound(TraceResult *ptr,  Vector vecSrc, Vector vecEnd, int
 	const char *pTextureName;
 	float rgfl1[3];
 	float rgfl2[3];
-	char *rgsz[4];
+	char* rgsz[4]{};
 	int cnt;
 	float fattn = ATTN_NORM;
 

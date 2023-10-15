@@ -1054,7 +1054,7 @@ void CFuncTrackTrain :: Use( CBaseEntity *pActivator, CBaseEntity *pCaller, USE_
 	{
 		float delta = value;
 
-		delta = ((int)(pev->speed * 4) / (int)m_speed)*0.25 + 0.25 * delta;
+		delta = (static_cast<float>((int)(pev->speed * 4)) / (int)m_speed) * 0.25 + 0.25 * delta;
 		if ( delta > 1 )
 			delta = 1;
 		else if ( delta < -1 )

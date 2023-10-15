@@ -196,7 +196,7 @@ CSchemeManager::CSchemeManager( int xRes, int yRes )
 	}
 
 	// record what has been entered so we can create defaults from the different values
-	bool hasFgColor, hasBgColor, hasArmedFgColor, hasArmedBgColor, hasMouseDownFgColor, hasMouseDownBgColor;
+	bool hasFgColor = false, hasBgColor = false, hasArmedFgColor = false, hasArmedBgColor = false, hasMouseDownFgColor = false, hasMouseDownBgColor = false;
 
 	pFile = gEngfuncs.COM_ParseFile( pFile, token );
 	while ( strlen(token) > 0 && (currentScheme < numTmpSchemes) )

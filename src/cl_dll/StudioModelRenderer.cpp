@@ -1828,7 +1828,7 @@ void CStudioModelRenderer::BuildFaces(SubModelData& dst, mstudiomodel_t* src)
 				j -= 3;
 				assert(j >= 0);
 
-				short indices[3];
+				short indices[3]{};
 				indices[0] = ptricmds[0]; ptricmds += 4;
 				indices[1] = ptricmds[0]; ptricmds += 4;
 				indices[2] = ptricmds[0]; ptricmds += 4;
@@ -1854,7 +1854,7 @@ void CStudioModelRenderer::BuildFaces(SubModelData& dst, mstudiomodel_t* src)
 				j = -j - 3;
 				assert(j >= 0);
 
-				short indices[3];
+				short indices[3]{};
 				indices[0] = ptricmds[0]; ptricmds += 4;
 				indices[1] = ptricmds[0]; ptricmds += 4;
 				indices[2] = ptricmds[0]; ptricmds += 4;
@@ -1911,7 +1911,7 @@ void CStudioModelRenderer::AddEdge(SubModelData& dst, int face, int v0, int v1)
 	}
 
 	// add new edge to list
-	Edge e;
+	Edge e{};
 	e.face0 = face;
 	e.face1 = -1;
 	e.vertex0 = v0;
@@ -2086,7 +2086,7 @@ void CStudioModelRenderer::DrawShadowVolume(SubModelData& data, mstudiomodel_t* 
 	std::vector<Face>::iterator f;
 	for (f = data.faces.begin(), i = 0; f < data.faces.end(); ++f, ++i)
 	{
-		myvec3_t v1, v2, norm;
+		myvec3_t v1{}, v2{}, norm;
 		VectorSubtract(vertexdata[f->vertex1], vertexdata[f->vertex0], v1);
 		VectorSubtract(vertexdata[f->vertex2], vertexdata[f->vertex1], v2);
 		CrossProduct(v2, v1, norm);

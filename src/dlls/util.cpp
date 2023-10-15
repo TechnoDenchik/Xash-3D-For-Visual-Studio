@@ -675,7 +675,7 @@ void UTIL_ScreenShake( const Vector &center, float amplitude, float frequency, f
 {
 	int			i;
 	float		localAmplitude;
-	ScreenShake	shake;
+	ScreenShake	shake{};
 
 	shake.duration = FixedUnsigned16( duration, 1<<12 );		// 4.12 fixed
 	shake.frequency = FixedUnsigned16( frequency, 1<<8 );	// 8.8 fixed
@@ -2050,7 +2050,7 @@ int CSave :: WriteFields( const char *pname, void *pBaseData, TYPEDESCRIPTION *p
 {
 	int				i, j, actualCount, emptyCount;
 	TYPEDESCRIPTION	*pTest;
-	int				entityArray[MAX_ENTITYARRAY];
+	int				entityArray[MAX_ENTITYARRAY]{};
 
 	// Precalculate the number of empty fields
 	emptyCount = 0;

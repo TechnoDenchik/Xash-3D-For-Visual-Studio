@@ -154,7 +154,7 @@ void CCheckButton2::SetupControls()
 	Image *pBitmap = m_bChecked ? m_pChecked : m_pUnchecked;
 
 	Panel *controls[2] = {&m_CheckboxPanel, &m_Label};
-	int controlSizes[2][2];
+	int controlSizes[2][2]{};
 	
 	controlSizes[0][0] = controlSizes[0][1] = 0;
 	if(pBitmap)

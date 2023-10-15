@@ -652,7 +652,7 @@ float HUD_GetFOV( void )
 	{
 		// Write it
 		int i = 0;
-		unsigned char buf[ 100 ];
+		unsigned char buf[100]{};
 
 		// Active
 		*( float * )&buf[ i ] = g_lastFOV;

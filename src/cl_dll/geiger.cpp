@@ -65,7 +65,7 @@ int CHudGeiger::Draw (float flTime)
 {
 	int pct;
 	int flvol{};
-	int rg[3];
+	int rg[3]{};
 	int i{};
 	
 	if (m_iGeigerRange < 1000 && m_iGeigerRange > 0)

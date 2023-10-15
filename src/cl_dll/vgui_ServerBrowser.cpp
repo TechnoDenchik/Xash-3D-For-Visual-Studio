@@ -479,7 +479,7 @@ ServerBrowser::ServerBrowser(int x,int y,int wide,int tall) : CTransparentPanel(
 	_headerPanel->setFgColor( 100,100,100, 100 );
 	_headerPanel->setBgColor( 0, 0, 0, 100 );
 
-	CSBLabel *pLabel[5];
+	CSBLabel* pLabel[5]{};
 	
 	pLabel[0] = new CSBLabel( "Address", "address" );
 	pLabel[1] = new CSBLabel( "Server", "hostname" );

@@ -145,8 +145,8 @@ NOTE:  Only works for text with +word in it.
 */
 int KB_ConvertString( char *in, char **ppout )
 {
-	char sz[ 4096 ];
-	char binding[ 64 ];
+	char sz[4096]{};
+	char binding[64]{};
 	char *p;
 	char *pOut;
 	char *pEnd;
