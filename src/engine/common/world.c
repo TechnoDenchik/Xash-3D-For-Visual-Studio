@@ -114,7 +114,7 @@ World_TransformAABB
 */
 void World_TransformAABB( matrix4x4 transform, const vec3_t mins, const vec3_t maxs, vec3_t outmins, vec3_t outmaxs )
 {
-	vec3_t	p1 = 0, p2 = 0;
+	vec3_t	p1, p2;
 	matrix4x4	itransform;
 	int	i;
 
