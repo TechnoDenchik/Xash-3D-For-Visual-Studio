@@ -23,7 +23,7 @@
     <SccLocalPath />
     <ProjectGuid>{AE410680-F4E2-4148-97C2-8D7F2E2DD8C4}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>technoengine</ProjectName>
+    <ProjectName>Xash3D(Old Fork)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
